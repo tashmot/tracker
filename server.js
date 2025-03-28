@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const TELEGRAM_BOT_TOKEN = "BOT-TOKEN"; // Substitua pelo token do seu bot
+const TELEGRAM_BOT_TOKEN = "7717608938:AAFb5X8vcIdqz6Yv79k9pbtwMu3ER2QbBh8"; // Substitua pelo token do seu bot
 const TELEGRAM_CHAT_ID = "-4632212346"; // Substitua pelo ID do chat (ou grupo) para onde quer enviar
 
 app.post("/send-location", async (req, res) => {
